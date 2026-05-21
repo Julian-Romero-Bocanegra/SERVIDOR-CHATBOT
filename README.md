@@ -25,5 +25,12 @@ También existe la posibilidad de descargar directamente Ubuntu en la máquina e
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/01a66534-b867-4fe8-a986-1f449d33aa80" />
 
+#### ¿Cómo interactúan entre sí?
+Para entender cómo fluye la información en tu sistema, este esquema te muestra la relación entre los archivos que hemos creado:
+1.	El Cliente (modelo_chatbot.py) envía tu mensaje al Servidor (chatbot.py).
+2.	El Servidor utiliza el Gestor (chat_history.py) para registrar la pregunta en el Almacenamiento (historial.txt).
+3.	El Servidor consulta a Gemini y recibe una respuesta.
+4.	El Servidor registra la respuesta en el Almacenamiento y la devuelve al Cliente para que la veas en pantalla.
+5.	El Supervisor (supervisor.py) vigila constantemente que todo este flujo no se detenga.
 
 
