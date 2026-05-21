@@ -118,6 +118,16 @@ En la otra ventana de terminal, arranca el script cliente para iniciar el canal 
 `python modelo_chatbot.py`
 <img width="921" height="149" alt="image" src="https://github.com/user-attachments/assets/ec567cb8-a485-4639-9fac-d73b565312df" />
 
+### Cambios
+#### 1. integración del historial de chat
+Lo que hicimos aquí fue añadir un "middleware" lógico dentro de tu endpoint /chat. Antes, el servidor solo recibía el mensaje y devolvía la respuesta de Gemini. Ahora, agregamos dos pasos intermedios:
+
+Registro de entrada: Antes de procesar la respuesta, llamamos a guardar_mensaje("Usuario", msg.message). Esto asegura que cada pregunta que haces quede grabada en historial.txt al instante.
+
+Registro de salida: Después de obtener la respuesta de la IA, la guardamos mediante guardar_mensaje("Chatbot", respuesta). De esta forma, el archivo historial.txt mantiene una estructura conversacional lógica (quién dijo qué).
+
+<img width="921" height="288" alt="image" src="https://github.com/user-attachments/assets/729f8528-aec1-40b0-be24-f771e73956d4" />
+
 ### Posibles errores
 #### 1. El error IndentationError:
 `expected an indented block` en Python ocurre porque el lenguaje utiliza los espacios (sangría) para definir qué código pertenece a qué bloque.
@@ -126,6 +136,10 @@ En tu caso, Python encontró la palabra clave try: en la línea 17, lo que le in
 
 <img width="589" height="75" alt="image" src="https://github.com/user-attachments/assets/65aad23a-72a6-4dd9-bbd7-03a8a88d1b65" />
 
+### Pasos para mantener tu sistema activo 
+1.	Iniciar el Backend: Ejecuta el servidor (puedes usar el supervisor o iniciarlo manualmente: `uvicorn chatbot:app --host 0.0.0.0 --port 8000`). 
+2.	Iniciar el Cliente: En otra terminal, ejecuta python3 modelo_chatbot.py. 
+3.	Consultar Historial: Si deseas revisar lo hablado, usa cat historial.txt en cualquier momento.
 
 
 
