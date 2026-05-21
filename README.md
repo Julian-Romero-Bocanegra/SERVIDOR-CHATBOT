@@ -1,4 +1,4 @@
-# SERVIDOR-CON-MODELO-CHATBOT-IA-GEMINI
+# SERVIDOR CON MODELO CHATBOT
 
 ## Documentación Técnica: Arquitectura de Chatbot con FastAPI y Gemini
 
