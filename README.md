@@ -75,13 +75,13 @@ Instalar las librerías necesarias especificadas en tu arquitectura
 `pip install fastapi uvicorn python-dotenv requests`
 <img width="921" height="78" alt="image" src="https://github.com/user-attachments/assets/47ed12c5-a7b9-4dcd-a89d-61b7c696b8ac" />
 
-2. Creación de los Archivos de Configuración y Lógica
+2. Creación de los Archivos de Configuración y Lógica /
 Crea cada archivo utilizando nano <nombre_del_archivo> y copia el código correspondiente que tienes desarrollado: 
 `.env`
-Servidor Backend (nano chatbot.py):
+Servidor Backend (nano chatbot.py): /
 Aquí el backend se encarga de estructurar el payload JSON requerido por la API de Google, concatenando el SYSTEM_PROMPT para moldear la personalidad cordial y didáctica del bot. 
 `Chatbot.py`
-Cliente de Consola (nano modelo_chatbot.py): 
+Cliente de Consola (nano modelo_chatbot.py): /
 Consume localmente el endpoint expuesto por FastAPI y maneja las interrupciones o la salida controlada del programa. 
 `Modelo_chatboy.py`
 
