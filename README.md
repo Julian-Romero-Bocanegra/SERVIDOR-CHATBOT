@@ -1,5 +1,9 @@
 # SERVIDOR CON MODELO CHATBOT
 
+Integrantes: Edwin Stiven Pasto / Julián Romero Bocanegra / David Santiago Martin Mendez.
+Docente: John Harold Perez Calderon 
+Institución: Fundación Universitaria Compensar.
+
 ## Documentación Técnica: Arquitectura de Chatbot con FastAPI y Gemini
 
 Este proyecto implementa una arquitectura desacoplada Cliente-Servidor en un entorno Linux (Ubuntu Server). El backend gestiona de forma segura la comunicación con la API de Google Gemini mediante solicitudes HTTP asíncronas, mientras que el frontend actúa como una interfaz interactiva y ligera en la terminal para el usuario final. 
