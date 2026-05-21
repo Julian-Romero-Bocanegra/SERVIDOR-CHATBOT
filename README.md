@@ -37,22 +37,22 @@ Para entender cómo fluye la información en tu sistema, este esquema te muestra
 Ejecuta los siguientes comandos en la terminal de tu Ubuntu Server para preparar el entorno de dependencias y asegurar el acceso remoto seguro.
 
 1. Actualizar los repositorios e índices de paquetes del sistema
-sudo apt update && sudo apt upgrade -y
+`sudo apt update && sudo apt upgrade -y`
 <img width="921" height="35" alt="image" src="https://github.com/user-attachments/assets/a5f8c78e-22d3-45b4-af42-387bb5f22b5b" />
 
 2. Instalar el editor de texto Nano para la gestión de archivos en consola
-sudo apt install nano -y
+`sudo apt install nano -y`
 <img width="921" height="140" alt="image" src="https://github.com/user-attachments/assets/0e205d6a-23b4-44d0-96ba-b4ef1bdd91f8" />
 
 3. Consultar la dirección IP asignada al servidor para futuras conexiones externas
-ip a
+`ip a`
 <img width="921" height="227" alt="image" src="https://github.com/user-attachments/assets/379ead87-6a74-4370-9697-f4a8dfebfce2" />
 
 4. Instalar el entorno de ejecución Python 3, su gestor de paquetes (pip) y el módulo de entornos virtuales
-sudo apt install python3 python3-pip -y
+`sudo apt install python3 python3-pip -y`
 <img width="921" height="172" alt="image" src="https://github.com/user-attachments/assets/e008ec5e-5f64-49be-8222-8d80e4e838c8" />
 
-sudo apt install python3-venv -y 
+`sudo apt install python3-venv -y`
 <img width="921" height="141" alt="image" src="https://github.com/user-attachments/assets/8ab3d37b-3a71-4b32-8dd3-d0fddcbd232d" />
 
 
