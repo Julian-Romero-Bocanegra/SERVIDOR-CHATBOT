@@ -118,6 +118,13 @@ En la otra ventana de terminal, arranca el script cliente para iniciar el canal 
 `python modelo_chatbot.py`
 <img width="921" height="149" alt="image" src="https://github.com/user-attachments/assets/ec567cb8-a485-4639-9fac-d73b565312df" />
 
+### Posibles errores
+#### 1. El error IndentationError:
+`expected an indented block` en Python ocurre porque el lenguaje utiliza los espacios (sangría) para definir qué código pertenece a qué bloque.
+
+En tu caso, Python encontró la palabra clave try: en la línea 17, lo que le indica que el código que viene justo después debe pertenecer a ese bloque y, por lo tanto, debe estar movido hacia la derecha.
+
+<img width="589" height="75" alt="image" src="https://github.com/user-attachments/assets/65aad23a-72a6-4dd9-bbd7-03a8a88d1b65" />
 
 
 
