@@ -144,18 +144,3 @@ En tu caso, Python encontró la palabra clave try: en la línea 17, lo que le in
 1.	Iniciar el Backend: Ejecuta el servidor (puedes usar el supervisor o iniciarlo manualmente: `uvicorn chatbot:app --host 0.0.0.0 --port 8000`). 
 2.	Iniciar el Cliente: En otra terminal, ejecuta python3 modelo_chatbot.py. 
 3.	Consultar Historial: Si deseas revisar lo hablado, usa cat historial.txt en cualquier momento.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
