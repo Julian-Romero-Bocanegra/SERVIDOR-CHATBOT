@@ -1,6 +1,6 @@
 # SERVIDOR CON MODELO CHATBOT
 
-Integrantes: Edwin Stiven Pasto / Julián Romero Bocanegra / David Santiago Martin Mendez.
+Integrantes: Edwin Stiven Pasto / Julián Romero Bocanegra / David Santiago Martin Mendez. \
 Docente: John Harold Perez Calderon 
 Institución: Fundación Universitaria Compensar.
 
