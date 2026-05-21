@@ -106,11 +106,19 @@ Dentro del entorno virtual, ejecuta el servidor ASGI Uvicorn. El parámetro --ho
 `uvicorn chatbot:app --host 0.0.0.0 --port 8000`
 <img width="921" height="130" alt="image" src="https://github.com/user-attachments/assets/2077a260-db2d-433a-9d95-c6957b94a39a" />
 
-#### Paso 2: Ejecutar la Interfaz de Usuario (Terminal 2)
+#### paso 2: Inicializar el supervisor (terminal 2)
+En lugar de ejecutar el comando uvicorn manualmente, simplemente ejecuta el supervisor:
+`source venv/bin/activate`
+`python3 supervisor.py`
+<img width="921" height="142" alt="image" src="https://github.com/user-attachments/assets/1ff759c4-bc71-4a6c-a463-894950673cf3" />
+
+#### Paso 3: Ejecutar la Interfaz de Usuario (Terminal 3)
 En la otra ventana de terminal, arranca el script cliente para iniciar el canal de conversación estructurado: 
 `source venv/bin/activate`
 `python modelo_chatbot.py`
 <img width="921" height="149" alt="image" src="https://github.com/user-attachments/assets/ec567cb8-a485-4639-9fac-d73b565312df" />
+
+
 
 
 
