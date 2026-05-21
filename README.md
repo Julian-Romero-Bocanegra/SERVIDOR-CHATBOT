@@ -1,7 +1,7 @@
 # SERVIDOR CON MODELO CHATBOT
 
 Integrantes: Edwin Stiven Pasto / Julián Romero Bocanegra / David Santiago Martin Mendez. \
-Docente: John Harold Perez Calderon 
+Docente: John Harold Perez Calderon \
 Institución: Fundación Universitaria Compensar.
 
 ## Documentación Técnica: Arquitectura de Chatbot con FastAPI y Gemini
