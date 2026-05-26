@@ -1,5 +1,3 @@
-modelo_chatbot.py
-
 import requests
 import textwrap
 
