@@ -7,7 +7,6 @@ from pydantic import BaseModel
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY_GEMINI")
-
 MODELO = "models/gemini-2.5-flash"
 URL = f"https://generativelanguage.googleapis.com/v1beta/{MODELO}:generateContent?key={API_KEY}"
 
