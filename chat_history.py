@@ -1,5 +1,3 @@
-chat_history.py
-
 import os
 
 HISTORIAL_FILE = "historial.txt"
